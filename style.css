@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+}
+
+h1:hover {
+    color: #0056b3;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.buscar-btn, .limpar-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #008000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 18px;
+}
+
+.buscar-btn:hover {
+    background-color: #006400;
+}
+
+.limpar-btn {
+    background-color: #ff0000;
+}
+
+.limpar-btn:hover {
+    background-color: #b30000;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007bff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+}
+label {
+display: block; /* Definir o rótulo como bloco para ocupar a largura total do container */
+text-align: center; /* Centralizar o texto do rótulo */
+margin-bottom: 5px; /* Definir o espaçamento inferior desejado */
+font-size: 30px;
+color: black;
+font-weight: bold
+}
+
+#resultado {
+font-size: 30px;
+color: black;
+font-weight: bold
+}
