@@ -12,16 +12,16 @@ body {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
-h1 {
+h3 {
     text-align: center;
     margin-bottom: 30px;
     color: #007bff;
     transition: color 0.3s ease-in-out;
 }
 
-h1:hover {
+/* h1:hover {
     color: #0056b3;
-}
+} */
 
 label {
     display: block;
