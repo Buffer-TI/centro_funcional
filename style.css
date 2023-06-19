@@ -15,7 +15,7 @@ body {
 h3 {
     text-align: center;
     margin-bottom: 30px;
-    color: #007bff;
+    color: #D2691E	;
     transition: color 0.3s ease-in-out;
 }
 
@@ -93,12 +93,12 @@ display: block; /* Definir o rótulo como bloco para ocupar a largura total do c
 text-align: center; /* Centralizar o texto do rótulo */
 margin-bottom: 5px; /* Definir o espaçamento inferior desejado */
 font-size: 30px;
-color: black;
+color: #0000CD;
 font-weight: bold
 }
 
 #resultado {
 font-size: 30px;
-color: black;
-font-weight: bold
+color: #D2691E;
+font-weight: bold;
 }
